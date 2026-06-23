@@ -1,7 +1,1 @@
-setup.py
-panda_controller/__init__.py
-panda_controller/slider_controller.py
-panda_controller.egg-info/PKG-INFO
-panda_controller.egg-info/SOURCES.txt
-panda_controller.egg-info/dependency_links.txt
-panda_controller.egg-info/top_level.txt
+/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_python/panda_controller/panda_controller.egg-info/SOURCES.txt

@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/path.dsv

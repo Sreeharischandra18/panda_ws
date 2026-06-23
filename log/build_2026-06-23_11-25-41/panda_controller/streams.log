@@ -1,0 +1,41 @@
+[0.018s] Invoking command in '/home/sreeharischandra/panda_ws/build/panda_controller': CMAKE_PREFIX_PATH=/home/sreeharischandra/panda_ws/install/panda_description:/home/sreeharischandra/panda_ws/install/panda_controller:/home/sreeharischandra/amr_ws/install/amr_description:/home/sreeharischandra/turtlebot3_ws/install/turtlebot3_description:/home/sreeharischandra/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble /usr/bin/cmake --build /home/sreeharischandra/panda_ws/build/panda_controller -- -j4 -l4
+[0.039s] Built target ament_cmake_python_symlink_panda_controller
+[0.207s] running egg_info
+[0.221s] writing panda_controller.egg-info/PKG-INFO
+[0.221s] writing dependency_links to panda_controller.egg-info/dependency_links.txt
+[0.221s] writing top-level names to panda_controller.egg-info/top_level.txt
+[0.262s] reading manifest file 'panda_controller.egg-info/SOURCES.txt'
+[0.262s] writing manifest file 'panda_controller.egg-info/SOURCES.txt'
+[0.285s] Built target ament_cmake_python_build_panda_controller_egg
+[0.290s] Invoked command in '/home/sreeharischandra/panda_ws/build/panda_controller' returned '0': CMAKE_PREFIX_PATH=/home/sreeharischandra/panda_ws/install/panda_description:/home/sreeharischandra/panda_ws/install/panda_controller:/home/sreeharischandra/amr_ws/install/amr_description:/home/sreeharischandra/turtlebot3_ws/install/turtlebot3_description:/home/sreeharischandra/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble /usr/bin/cmake --build /home/sreeharischandra/panda_ws/build/panda_controller -- -j4 -l4
+[0.291s] Invoking command in '/home/sreeharischandra/panda_ws/build/panda_controller': CMAKE_PREFIX_PATH=/home/sreeharischandra/panda_ws/install/panda_description:/home/sreeharischandra/panda_ws/install/panda_controller:/home/sreeharischandra/amr_ws/install/amr_description:/home/sreeharischandra/turtlebot3_ws/install/turtlebot3_description:/home/sreeharischandra/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble /usr/bin/cmake --install /home/sreeharischandra/panda_ws/build/panda_controller
+[0.293s] -- Install configuration: ""
+[0.294s] -- Execute custom install script
+[0.294s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller//launch/panda_controller.launch.py
+[0.294s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller//config/panda_controllers.yaml
+[0.294s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/environment/pythonpath.sh
+[0.295s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/environment/pythonpath.dsv
+[0.295s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.295s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.295s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.295s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.296s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/__init__.py
+[0.296s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller/slider_controller.py
+[0.296s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/lib/panda_controller/slider_controller.py
+[0.296s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/ament_index/resource_index/package_run_dependencies/panda_controller
+[0.296s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/ament_index/resource_index/parent_prefix_path/panda_controller
+[0.296s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/environment/ament_prefix_path.sh
+[0.297s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/environment/ament_prefix_path.dsv
+[0.297s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/environment/path.sh
+[0.297s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/environment/path.dsv
+[0.297s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/local_setup.bash
+[0.297s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/local_setup.sh
+[0.297s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/local_setup.zsh
+[0.297s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/local_setup.dsv
+[0.298s] -- Symlinking: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/package.dsv
+[0.300s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/ament_index/resource_index/packages/panda_controller
+[0.300s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/cmake/panda_controllerConfig.cmake
+[0.301s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/cmake/panda_controllerConfig-version.cmake
+[0.301s] -- Up-to-date symlink: /home/sreeharischandra/panda_ws/install/panda_controller/share/panda_controller/package.xml
+[0.324s] Listing '/home/sreeharischandra/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller'...
+[0.329s] Invoked command in '/home/sreeharischandra/panda_ws/build/panda_controller' returned '0': CMAKE_PREFIX_PATH=/home/sreeharischandra/panda_ws/install/panda_description:/home/sreeharischandra/panda_ws/install/panda_controller:/home/sreeharischandra/amr_ws/install/amr_description:/home/sreeharischandra/turtlebot3_ws/install/turtlebot3_description:/home/sreeharischandra/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/humble /usr/bin/cmake --install /home/sreeharischandra/panda_ws/build/panda_controller

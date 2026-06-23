@@ -43,27 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller/" TYPE DIRECTORY FILES "/home/sreeharischandra/panda_ws/src/panda_controller/launch")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller/" TYPE DIRECTORY FILES "/home/sreeharischandra/panda_ws/src/panda_controller/config")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller/environment" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/pythonpath.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller/environment" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/pythonpath.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/panda_controller-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_python/panda_controller/panda_controller.egg-info/")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/panda_controller" TYPE DIRECTORY FILES "/home/sreeharischandra/panda_ws/src/panda_controller/panda_controller/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  include("/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -72,69 +52,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
         "/usr/bin/python3" "-m" "compileall"
         "/home/sreeharischandra/panda_ws/install/panda_controller/local/lib/python3.10/dist-packages/panda_controller"
       )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/panda_controller" TYPE PROGRAM FILES "/home/sreeharischandra/panda_ws/src/panda_controller/panda_controller/slider_controller.py")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/panda_controller")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/panda_controller")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller/environment" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller/environment" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_index/share/ament_index/resource_index/packages/panda_controller")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller/cmake" TYPE FILE FILES
-    "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_core/panda_controllerConfig.cmake"
-    "/home/sreeharischandra/panda_ws/build/panda_controller/ament_cmake_core/panda_controllerConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/panda_controller" TYPE FILE FILES "/home/sreeharischandra/panda_ws/src/panda_controller/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
